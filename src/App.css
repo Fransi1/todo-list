@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #131212;
+}
+
+div {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #1a1919;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: calc(100% - 40px);
+  padding: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  border: 2px solid #131212;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: #131212;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 10px;
+  background-color: #131212;
+  border: 1px solid #131212;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+li span[style*="line-through"] {
+  text-decoration: line-through;
+}
+
+button {
+  margin: 0;
+}
+
+button:last-child {
+  background-color: #e74c3c;
+  transition: background-color 0.3s;
+}
+
+
