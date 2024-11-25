@@ -10,4 +10,4 @@ Esta es una aplicación de lista de tareas. Permite agregar, completar y elimina
 
 ## Instalación
 1. Clona este repositorio:
-   git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+   git clone https://github.com/Fransi1/todo-list.git
